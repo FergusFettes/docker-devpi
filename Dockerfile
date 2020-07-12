@@ -1,5 +1,5 @@
 #
-FROM python:3.6.5
+FROM arm32v7/python:3.6.5
 LABEL maintainer="https://github.com/muccg/"
 
 ARG ARG_DEVPI_SERVER_VERSION=4.5.0
